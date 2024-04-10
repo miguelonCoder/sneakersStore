@@ -9,4 +9,4 @@ const userSchema = new mongoose.Schema<UserDocument>({
 });
 
 // Creación del modelo Mongoose para el modelo de usuario
-export const UserModel = mongoose.model<UserDocument>('User', userSchema);
+export const userModel = mongoose.model<UserDocument>('User', userSchema);

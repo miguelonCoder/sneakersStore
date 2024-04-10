@@ -1,7 +1,7 @@
-import { Brand } from ".";
 
 export interface Product {
-  model: string,
-  brand: Brand,
-  price: number
+  nameModel: string,
+  brand: any,
+  price: number,
+  cantInStock: number
 }
